@@ -7,17 +7,20 @@
 
         <title>COUNTDOWN SLIDESHOW</title>
 
-        <script src="JS/main.js"></script>
+        <script src="JS/main.js" defer></script>
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
 
           <!--COUNDOWN BY SECONDS-->
           <h4>COUNTDOWN BY SECONDS</h4>
-          <p>How many seconds would you like to set your alarm for?</p>
-          <input id="seconds" value=""/>
-          <button onclick="countdown()">Click Here</button>
-          <p id="timer"></p>  
+        <div class="countdown">
+            <p>How many seconds would you like to set your alarm for?</p>
+            <input id="seconds" value=""/>
+            <button onclick="countdown()">Click Here</button>
+            <p id="timer"></p>  
+        </div>
+
 
           <!--SLIDESHOW-->
           <h4>SLIDESHOW</h4>
