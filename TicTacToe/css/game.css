@@ -1,0 +1,36 @@
+
+
+
+/*This container includes our table and canvas*/
+.center-container {
+    width: 608px;
+    margin: 0 auto; /*centers the container*/
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse; /*collapse table borders into 1 border*/
+    border-style: hidden; /*hides outer borders on table*/
+    background-color: lightyellow;
+}
+
+td {
+    cursor: pointer;
+    border: 4px solid olive; /*sets table border style*/
+    padding: 0px; /*removes default padding*/
+    width: 200px;
+    height: 200px;
+}
+
+canvas {
+    position: absolute; /*set at the top left corner of the container*/
+    z-index: 10; /*places canvas over the top of the table*/
+    pointer-events: none; /*makes our canvas invisible*/
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: lightsalmon;
+}
