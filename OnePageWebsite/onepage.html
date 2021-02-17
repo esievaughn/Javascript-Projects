@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Vermicompost</title>
+		<link rel="stylesheet" href="./onepageCSS/shared.css">
+		<link rel="stylesheet" href="./onepageCSS/animation.css">
+		<script src="./JS/onepage.js" defer></script>
+
+	</head>
+	<body>
+	 
+		<!-- NAV -->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#whyvermicompost"><li>WHY VERMICOMPOST</li></a>
+					<a href="#contact"><li>CONTACT</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">VERMI|COMPOST|CONSULT</span>
+				</div>
+			</div>
+		</div>	
+		<!-- END HOME -->
+		
+			<!-- LIGHTBOX -->
+			<div class="row">
+				<div class="column">
+				  <img src="./onepageimages/vermicompost_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+				</div>
+				<div class="column">
+				  <img src="./onepageimages/vermicompost_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+				</div>
+				<div class="column">
+				  <img src="./onepageimages/vermicompost_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+				</div>
+				<div class="column">
+				  <img src="./onepageimages/vermicompost_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+				</div>
+			  </div>
+			  
+			  <div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+			  
+				  <div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="./onepageimages/vermicompost_1.png" style="width:100%">
+				  </div>
+			  
+				  <div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="./onepageimages/vermicompost_2.png" style="width:100%">
+				  </div>
+			  
+				  <div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="./onepageimages/vermicompost_3.png" style="width:100%">
+				  </div>
+				  
+				  <div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="./onepageimages/vermicompost_4.png" style="width:100%">
+				  </div>
+				  
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			  
+				  <div class="caption-container">
+					<p id="caption"></p>
+				  </div>
+			  
+			  
+				  <div class="column">
+					<img class="demo cursor" src="./onepageimages/vermicompost_1.png" style="width:100%" onclick="currentSlide(1)" alt="Soil via vermicompost">
+				  </div>
+				  <div class="column">
+					<img class="demo cursor" src="./onepageimages/vermicompost_2.png" style="width:100%" onclick="currentSlide(2)" alt="Earthworms">
+				  </div>
+				  <div class="column">
+					<img class="demo cursor" src="./onepageimages/vermicompost_3.png" style="width:100%" onclick="currentSlide(3)" alt="Garden">
+				  </div>
+				  <div class="column">
+					<img class="demo cursor" src="./onepageimages/vermicompost_4.png" style="width:100%" onclick="currentSlide(4)" alt="Soil via vermicompost">
+				  </div>
+				</div>
+			  </div>
+		
+		<!-- WHY VERMITCOMPOST? VIDEO -->
+		<div id="whyvermicompost">
+			<h1>WHY VERMICOMPOST?</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/V8miLevRI_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<!-- END WHY VERMICOMPOST? VIDEO-->
+		
+		<!-- CONTACT FORM -->
+			<section id="contact">
+				<div class="container">
+					<div class="heading-padding">
+						<h1 class="heading-padding">CONTACT</h1>
+						<div class="reservation">
+							<h2><span>LET'S DIG IN!</span>
+								<br />BOOK YOUR CONSULT TODAY
+							</h2>
+							<div class="form-rsvp">
+								<form action="" method="post">
+									<input class="rsvp" type="text" value="First Name">
+									<input class="rsvp" type="text" value="Last Name">
+									<input class="rsvp" type="text" value="Email Address">
+									<input class="rsvp" type="text" value="Phone Number">
+									<div class="form-spacer">
+										<label class="terms">Terms & Conditions</label>
+									</div>
+										<div class="submit">
+											<input type="submit" value="submit">
+										</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<div id="footer">
+			www.vermicompostconsult.works &nbsp;|&nbsp; &copy; 2020
+		</div>
+		<!-- END FOOTER -->
+		
+		
+	</body>
+</html>
+	
