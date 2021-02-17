@@ -10,8 +10,10 @@ const Calculator = {        //creates an object to keep track of values//
 function Input_Digit(digit) {   //modifies values each time a button is clicked//
     const {Display_Value, Wait_Second_Operand}= Calculator; //checking to see if Wait_Second_Operand is true and set Display_Value to the key that was clicked//
     if (Wait_Second_Operand === true) {
+        Calculator.Dislay_Value= digit;
+        Calculator.Wait_Second_Operand= false;
     } else {                         //this overwrite Display_Value if the current value is 0 otherwise it add onto it//                              
-        Calculator.Display_Value= Display_Value === '0' ? digit : Display_Value + digit;
+        Calculator.Display_Value= Display_Value ==='0' ? digit : Display_Value + digit;
     }
 }
 
@@ -23,7 +25,7 @@ function Input_Decimal(dot) {   //this section handles decimal points//
 }
 
 function Handle_Operator(Next_Operator) {       //handles operators//
-    const {First_Operand, Display_Value, operator}= Calculator;  
+    const { First_Operand, Display_Value, operator }= Calculator  
     const Value_of_Input= parseFloat(Display_Value);         //when an operator key is pressed, we convert the current number displayed on the screen to a numver and then store the result in Calculator.First_Operand if it doesn't already exist//
     if (operator && Calculator.Wait_Second_Operand) {       //checks if an operator already exists and if Wait_Second_Operand is true, then updates the operator and exists from the function//
         Calculator.operator= Next_Operator;
