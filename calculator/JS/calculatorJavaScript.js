@@ -8,9 +8,9 @@ const Calculator = {        //creates an object to keep track of values//
 };
 
 function Input_Digit(digit) {   //modifies values each time a button is clicked//
-    const {Display_Value, Wait_Second_Operand}= Calculator; //checking to see if Wait_Second_Operand is true and set Display_Value to the key that was clicked//
+    const { Display_Value, Wait_Second_Operand }= Calculator; //checking to see if Wait_Second_Operand is true and set Display_Value to the key that was clicked//
     if (Wait_Second_Operand === true) {
-        Calculator.Dislay_Value= digit;
+        Calculator.Display_Value= digit;
         Calculator.Wait_Second_Operand= false;
     } else {                         //this overwrite Display_Value if the current value is 0 otherwise it add onto it//                              
         Calculator.Display_Value= Display_Value ==='0' ? digit : Display_Value + digit;
