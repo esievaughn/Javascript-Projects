@@ -37,13 +37,12 @@ for (var i = 0; i < buttons.length; i++) {
 }
 
 
-function remove() {                         //function to remove array from todo 
+function remove() {                         //creates funcationality to remove a today from an array 
     var id = this.getAttribute('id');
     var todos = get_todos();
     todos.splice(id, 1);
     localStorage.setItem('todo', JSON.stringify(todos));
-    // examine show() to remove task from screen
-    show();
+    show();                                 //this looks into the show() to display a removed item from the screen 
     return false;
 }
 
