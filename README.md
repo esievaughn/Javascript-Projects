@@ -9,5 +9,5 @@
 * jQuery Movie Site
   -
 * ToDo App
--
-*TicTacToe Game
+  -
+* TicTacToe Game
