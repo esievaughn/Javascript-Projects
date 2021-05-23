@@ -2,13 +2,11 @@
 
 ## Main Projects include:
 
-* JavaScript Calculator
+[JAVASCRIPT CALCULATOR](https://github.com/esievaughn/Javascript-Projects/tree/main/calculator)
   -
-* One-Page Website
+[ONE PAGE WEBSITE](https://github.com/esievaughn/Javascript-Projects/tree/main/OnePageWebsite)
   -
-* jQuery Movie Site
+[TO DO APP](https://github.com/esievaughn/Javascript-Projects/tree/main/TODOapp)
   -
-* ToDo App
-  -
-* TicTacToe Game
-  -
+[TIC TAC TOE GAME](https://github.com/esievaughn/Javascript-Projects/tree/main/TicTacToe)
+
