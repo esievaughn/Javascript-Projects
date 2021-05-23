@@ -1,6 +1,7 @@
 # Javascript Projects
-
+---
 ## Main Projects include:
+---
 
 [JAVASCRIPT CALCULATOR](https://github.com/esievaughn/Javascript-Projects/tree/main/calculator)
   -
